@@ -6,7 +6,7 @@ import javax.imageio.ImageIO
 
 class KdMain {
     companion object {
-        private var cells = 6000
+        private var cells = 4000
 
         private const val fileName = "input/space.jpg"
 
@@ -42,7 +42,7 @@ class KdMain {
                     }
                 }
 
-                val outputFile = File("out/space.png")
+                val outputFile = File("out/space_low.png")
                 ImageIO.write(toWrite, "png", outputFile)
 
                 print("Finished! ${stopwatch.elapsedTime() - start}")
