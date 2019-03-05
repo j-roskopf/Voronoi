@@ -6,7 +6,7 @@ import javax.imageio.ImageIO
 
 class KdMain {
     companion object {
-        private var cells = 30000
+        private var cells = 6000
 
         private const val fileName = "input/space.jpg"
 
